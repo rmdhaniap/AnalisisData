@@ -1,5 +1,5 @@
 import sys
-!{sys.executable} -m pip install matplotlib
+{sys.executable} -m pip install matplotlib
 
 import pandas as pd 
 import numpy as np  
