@@ -5,8 +5,8 @@ import numpy as np
 #sns.set_style("whitegrid")
 from datetime import datetime
 #import scipy.stats as stats
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
+#from sklearn.preprocessing import StandardScaler
+#from sklearn.decomposition import PCA
 import warnings
 warnings.filterwarnings("ignore")
 import pandas as pd
