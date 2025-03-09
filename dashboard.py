@@ -4,7 +4,7 @@ import numpy as np
 #import seaborn as sns  
 #sns.set_style("whitegrid")
 from datetime import datetime
-import scipy.stats as stats
+#import scipy.stats as stats
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 import warnings
