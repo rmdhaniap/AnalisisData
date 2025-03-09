@@ -1,25 +1,22 @@
-import sys
-{sys.executable} -m pip install matplotlib
-
 import pandas as pd 
 import numpy as np  
-#import matplotlib.pyplot as plt  
-#import seaborn as sns  
-#sns.set_style("whitegrid")
+import matplotlib.pyplot as plt  
+import seaborn as sns  
+sns.set_style("whitegrid")
 from datetime import datetime
-#import scipy.stats as stats
-#from sklearn.preprocessing import StandardScaler
-#from sklearn.decomposition import PCA
+import scipy.stats as stats
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
 import warnings
 warnings.filterwarnings("ignore")
 import pandas as pd
-#import matplotlib.pyplot as plt
-#import seaborn as sns
+import matplotlib.pyplot as plt
+import seaborn as sns
 import streamlit as st
 from PIL import Image
 
 # Set style seaborn
-#sns.set(style='dark')
+sns.set(style='dark')
 
 day_df = pd.read_csv("day.csv")
 day_df.head()
