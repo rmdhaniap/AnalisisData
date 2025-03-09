@@ -16,7 +16,7 @@ import streamlit as st
 from PIL import Image
 
 # Set style seaborn
-sns.set(style='dark')
+#sns.set(style='dark')
 
 day_df = pd.read_csv("day.csv")
 day_df.head()
