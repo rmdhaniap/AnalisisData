@@ -1,7 +1,5 @@
-pip install seaborn
-import seaborn as sns
-sns.set_style("whitegrid")
-
+!pip install seaborn
+!pip install matplotlib
 
 import pandas as pd 
 import numpy as np  
